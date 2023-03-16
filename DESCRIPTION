@@ -2,17 +2,16 @@ Package: evt0
 Type: Package
 Title: Mean of order p, peaks over random threshold Hill and high quantile estimates
 Version: 1.1-4
-Date: 2023-02-27
 Author: B G Manjunath and Frederico Caeiro; guidance from Prof. M. Ivette Gomes and Prof. M. Isabel Fraga Alves
 Maintainer: Leo Belzile <belzilel@gmail.com>
 Depends: R (>= 1.9.0), evd, stats
-Description: Computes extreme value index (EVI) estimate for heavy tailed models by Mean of order p (MOP) 
-	     and peaks over random threshold (PORT) Hill methodologies. 
-             Besides, also computes moment, generalised Hill and mixed moment estimates for EVI. 
-             Compute high quantile or value-at-risk (VaR) based on above EVI estimates.
+Description: The R package proposes extreme value index estimators for heavy tailed models 
+             by mean of order p <DOI:10.1016/j.csda.2012.07.019>, peaks over random threshold
+             <DOI:10.57805/revstat.v4i3.37> and a bias-reduced estimator 
+             <DOI:10.1080/00949655.2010.547196>.
+	     The package also computes moment, generalised Hill <DOI:10.2307/3318416> 
+	     and mixed moment estimates for the extreme value index.
+	     High quantiles and value at risk estimators based on these estimators are implemented.
 License: GPL (>= 2)
-URL: http://www.r-project.org
-Repository: CRAN
-Packaged: 2013-12-24 04:48:37 UTC; ci
-NeedsCompilation: no
-Date/Publication: 2013-12-24 07:41:14
+BugReports: https://github.com/lbelzile/evt0/issues/
+
