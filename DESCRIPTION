@@ -2,8 +2,8 @@ Package: evt0
 Type: Package
 Title: Mean of Order P, Peaks over Random Threshold Hill and High Quantile Estimates
 Version: 1.1-4
-Date: 2023-04-19
-Authors@R: c(person(given="Leo", family="Belzile", role = c("cre"), email = "belzilel@gmail.com", comment = c(ORCID = "0000-0002-9135-014X")), person(given="BG", family="Manjunath", role=c("aut"), comment = c(ORCID = "0000-0003-2687-0138")), person(given="Frederico", family="Caeiro", role=c("aut")), person(given="Maria Ivette.", family="Gomes", role=c("ctb"), comment = c(ORCID = "0000-0002-2903-6993")), person(given="Maria Isabel", family="Fraga Alves", role=c("ctb"), comment = c(ORCID = "0000-0003-3824-2403")))
+Date: 2023-04-20
+Authors@R: c(person(given="Leo", family="Belzile", role = c("cre"), email = "belzilel@gmail.com", comment = c(ORCID = "0000-0002-9135-014X")), person(given="B. G.", family="Manjunath", role=c("aut"), comment = c(ORCID = "0000-0003-2687-0138")), person(given="Frederico", family="Caeiro", role=c("aut")), person(given="Maria Ivette.", family="Gomes", role=c("ctb"), comment = c(ORCID = "0000-0002-2903-6993")), person(given="Maria Isabel", family="Fraga Alves", role=c("ctb"), comment = c(ORCID = "0000-0003-3824-2403")))
 Depends: R (>= 1.9.0), evd, stats
 Description: The R package proposes extreme value index estimators for heavy tailed models 
              by mean of order p <DOI:10.1016/j.csda.2012.07.019>, peaks over random threshold
